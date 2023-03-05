@@ -6,25 +6,26 @@ import {
   DialogActions,
   Button,
 } from '@mui/material'
+import { useTranslation } from 'react-i18next'
 
-interface PostDelete {
+interface I_PostDelete {
   open: boolean
   onSuccess: () => void
   onClose: () => void
 }
 
-export const PostDelete = ({ open, onClose, onSuccess }: PostDelete) => {
+export const PostDelete = ({ open, onClose, onSuccess }: I_PostDelete) => {
+  const { t } = useTranslation()
+
   return (
     <Dialog open={open} onClose={onClose}>
-      <DialogTitle>Removing post</DialogTitle>
+      <DialogTitle>{t('postDelete.title')}</DialogTitle>
       <DialogContent>
-        <DialogContentText>
-          This post will be deleted with all its contents. Remove?
-        </DialogContentText>
+        <DialogContentText>{t('postDelete.mainText')}</DialogContentText>
       </DialogContent>
       <DialogActions>
-        <Button onClick={onClose}>No</Button>
-        <Button onClick={onSuccess}>Yes</Button>
+        <Button onClick={onClose}>{t('postDelete.buttonNo')}</Button>
+        <Button onClick={onSuccess}>{t('postDelete.buttonYes')}</Button>
       </DialogActions>
     </Dialog>
   )

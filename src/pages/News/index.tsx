@@ -12,6 +12,8 @@ import {
 
 import { useEffect, useState } from 'react'
 
+import { useTranslation } from 'react-i18next'
+
 import { PostDelete } from 'components/Modals/PostDelete'
 import { useAppDispatch } from 'hooks/useAppDispatch'
 import { useAppSelector } from 'hooks/useAppSelector'
@@ -24,6 +26,7 @@ import { Status } from 'store/posts/types'
 const limitPosts = 9
 
 export const News = () => {
+  const { t } = useTranslation()
   const dispatch = useAppDispatch()
   const { posts, status } = useAppSelector((state) => state.posts)
   const [page, setPage] = useState(1)
@@ -73,15 +76,14 @@ export const News = () => {
           <Grid key={post.id} item md={4}>
             <Card>
               <CardContent sx={{ height: 200, color: '#1565c0 ' }}>
-                <Typography variant='h5' component='div'>
+                <Typography variant='h5' component='h5'>
                   {post.title}
                 </Typography>
                 <Typography variant='body2'>{post.body}</Typography>
               </CardContent>
               <CardActions>
                 <Button onClick={() => handleOpenModal(post.id)} size='large'>
-                  {' '}
-                  Delete
+                  {t('news.delete')}
                 </Button>
               </CardActions>
             </Card>
@@ -100,7 +102,7 @@ export const News = () => {
         onClick={handleLoadMore}
         sx={{ margin: 2 }}
       >
-        Завантажити ще
+        {t('news.more')}
       </Button>
     </Container>
   )

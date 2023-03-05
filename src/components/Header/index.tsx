@@ -1,4 +1,5 @@
 import { Box, Button, Container, Grid } from '@mui/material'
+
 import { useTranslation } from 'react-i18next'
 
 import { LinkStyle } from './styles'

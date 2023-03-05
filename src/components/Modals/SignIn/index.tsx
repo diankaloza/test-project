@@ -68,11 +68,9 @@ export const SignInModal = () => {
         {t('header.buttonSignUp')}
       </Button>
       <Dialog open={open} onClose={handleCloseModal}>
-        <DialogTitle>Авторизація</DialogTitle>
+        <DialogTitle>{t('signIn.title')}</DialogTitle>
         <DialogContent>
-          <DialogContentText>
-            Для перегляду цієї сторінки необхідно ввести ім"я користувача та пароль
-          </DialogContentText>
+          <DialogContentText>{t('signIn.text')}</DialogContentText>
           <Box>
             <TextField
               type='text'
@@ -98,14 +96,14 @@ export const SignInModal = () => {
           </Box>
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleCloseModal}>Вийти</Button>
-          <Button onClick={handleSubmit(handleSignUp)}>Увійти</Button>
+          <Button onClick={handleCloseModal}>{t('signIn.close')}</Button>
+          <Button onClick={handleSubmit(handleSignUp)}>{t('signIn.enter')}</Button>
         </DialogActions>
       </Dialog>
       {isWrongUser && (
         <Snackbar open={isWrongUser} autoHideDuration={6000} onClose={handleCloseWarning}>
           <Alert onClose={handleCloseWarning} severity='warning' sx={{ width: '100%' }}>
-            Неправильно введено ім'я користувача або пароль
+            {t('signIn.alert')}
           </Alert>
         </Snackbar>
       )}
