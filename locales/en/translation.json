@@ -1,0 +1,48 @@
+{
+  "header": {
+    "textMain": "Main",
+    "textNews": "News",
+    "profile": "Profile",
+    "buttonSignUp": "Sign up",
+    "buttonLogOut": "Log out"
+  },
+
+  "modal": {
+    "signIn": {
+      "form": {
+        "username": "Username",
+        "password": "Password"
+      }
+    }
+  },
+
+  "validations": {
+    "required": "Enter the field",
+    "passwordMin": "Minimum password length 5 characters"
+  },
+  "home": {
+    "header": "Some text is here",
+    "text": "There was barely a breath of spring warmth, the buds swelled on the trees - lo and behold, the leaves will stick out. Everything in nature comes to life, as if dressed in precious robes. The bright sun invited early spring to visit. Snow-white clouds floated in the sky. A young blade of grass turned green. A fresh breeze touched bare trees. Everything around has changed. Singing birds flew in from warm regions. Cute animals woke up from winter hibernation. Trees woke up from winter sleep. Three poplars, towering in the field - choose a spring color for themselves. You look at the sky, and there are two - a crane and a crane . And they circle so beautifully and easily, as if they were conducting some kind of dance. The solid ice has melted on the ponds. And the good children plant trees and water them. They whitewash them with lime so that pests do not climb on them and do no harm. When the youths do this, it will be very good harvest. I really like this time of year - colorful, cheerful, fragrant and fragrant spring! How about you?There was barely a breath of spring warmth, the buds swelled on the trees - lo and behold, the leaves will stick out. Everything in nature comes to life, as if dressed in precious robes. The bright sun invited early spring to visit. Snow-white clouds floated in the sky. A young blade of grass turned green. A fresh breeze touched bare trees. Everything around has changed. Singing birds flew in from warm regions. Cute animals woke up from winter hibernation. Trees woke up from winter sleep. Three poplars, towering in the field - choose a spring color for themselves. You look at the sky, and there are two - a crane and a crane . And they circle so beautifully and easily, as if they were conducting some kind of dance. The solid ice has melted on the ponds. And the good children plant trees and water them. They whitewash them with lime so that pests do not climb on them and do no harm. When the youths do this, it will be very good harvest. I really like this time of year - colorful, cheerful, fragrant and fragrant spring! How about you?"
+  },
+  "profile": {
+    "header": "EMOTIONAL OVEREATING: HOW TO OVERCOME AN EATING DISORDER?",
+    "text": "EMOTIONAL OVEREATING: HOW TO OVERCOME AN EATING DISORDER?... Finding comfort in food is quite common and is part of a disorder called emotional overeating. This is due to the fact that food increases the level of dopamine, known to us as the hormone of happiness. And if at the beginning of the war, most of us were undernourished, then later the opposite effect arose - overeating. As a result, in the presence of provoking triggers and the inability to manage emotions, it is not always possible to regulate the feeling of hunger and appetite. The provoking factors are usually problems from childhood, when good behavior or vice versa after a quarrel, there was always a reward in the form of something tasty. Wanting to suppress negative feelings and calm themselves down, people reach for food, mostly harmful (sweets, fast food) more and more often. Moreover, eating ends with a feeling of guilt or shame, which again provokes overeating with a redoubled return of previous emotions. The resulting closed circle leads to an increase in body weight, heart problems, and the risk of diabetes. And in most cases, it will not break until the emotional problems are resolved. WHY DO PEOPLE EAT THEIR EMOTIONS? The root cause of emotional overeating is different for everyone, from problems at work or in a relationship to financial difficulties. Of course, today's conditions and martial law are almost certainly the main trigger of an eating disorder. The problem can occur in both sexes, but according to statistics, most cases occur among women. The mechanism of the development of emotional overeating is that due to stress, a person feels the so-called emotional emptiness. And most believe that food will help restore integrity. Specialists distinguish several stages of emotional overeating, from the activation of a painful 'place', the emergence of an acute need to eliminate negative emotions, the direct process of absorbing food to emotional satisfaction after tasting it and the appearance of guilt, which can be manifested by exhausting physical training or refusing dinner. Also, factors that can influence the development of an eating disorder include the inability to distinguish physical hunger from emotional hunger, hormonal disorders (cortisol level fluctuations in response to stress). Regarding the inability to distinguish between physical hunger and emotional hunger, several nuances should be taken into account. So emotional hunger arises suddenly and you crave only a certain group of food, and not a variety as with physical hunger. Also a characteristic feature is overeating with the absence of a feeling of satiety and the appearance of a feeling of shame afterwards. TACTICS Eating because of negative emotions often makes people feel more upset than before. Therefore, in order to get rid of this problem, it is advisable to follow several recommendations: find a 'healthy' way to cope with stress. Since this may take some time, experiment with different activities to find the one that suits you best; regular physical activity, from walking to running and strength training; keeping a food diary. Record what and when you eat. This will make it possible to identify the triggers that lead to emotional overeating and will significantly help in diagnosis when seeking medical help; proper nutrition, because with it the body receives nutrients. Thus, with proper nutrition and regimen, it may be easier to distinguish when a person eats from boredom or experienced stress; focus on the food, chewing it thoroughly. So you will find out in time when you are really full; avoid distractions, such as eating in front of the TV or watching the news on your phone. Remember that food can help relieve your negative emotions only at the initial stage. In fact, overcoming the emotions behind hunger should be done correctly and gradually, choosing the most appropriate alternatives. Even if at first glance it seems that it is long and boring. Ultimately, healthy eating habits will help you be more in touch with yourself and your feelings and prevent complications in the form of eating disorders (eg, bulimia)."
+  },
+  "postDelete": {
+    "buttonYes": "Yes",
+    "buttonNo": "No",
+    "mainText": "This post will be deleted with all its contents. Remove?",
+    "title": "Removing post"
+  },
+  "signIn": {
+    "title": "Sign in",
+    "text": " To view this page, you must enter a username and password",
+    "close": "Close",
+    "enter": "Enter",
+    "alert": " Username or password entered incorrectly"
+  },
+  "news": {
+    "delete": "DELETE",
+    "more": "DOWNLOAD MORE"
+  }
+}
